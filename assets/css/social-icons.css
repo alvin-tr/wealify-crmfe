@@ -1,0 +1,71 @@
+/* Social Icons CSS */
+.social-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.social-icon-sm {
+  width: 20px;
+  height: 20px;
+}
+
+.social-icon-md {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon-lg {
+  width: 32px;
+  height: 32px;
+}
+
+/* Platform Icons - Using relative path from assets directory */
+.social-icon-telegram {
+  background-image: url('../social-icons/telegram.svg');
+}
+
+.social-icon-whatsapp {
+  background-image: url('../social-icons/whatsapp.svg');
+}
+
+.social-icon-zalo {
+  background-image: url('../social-icons/zalo.svg');
+}
+
+.social-icon-discord {
+  background-image: url('../social-icons/discord.svg');
+}
+
+.social-icon-facebook {
+  background-image: url('../social-icons/facebook.svg');
+}
+
+.social-icon-linkedin {
+  background-image: url('../social-icons/linkedin.svg');
+}
+
+.social-icon-line {
+  background-image: url('../social-icons/line.svg');
+}
+
+.social-icon-viber {
+  background-image: url('../social-icons/viber.svg');
+}
+
+.social-icon-wechat {
+  background-image: url('../social-icons/default.svg');
+}
+
+.social-icon-signal {
+  background-image: url('../social-icons/default.svg');
+}
+
+.social-icon-default {
+  background-image: url('../social-icons/default.svg');
+}
+

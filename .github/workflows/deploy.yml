@@ -1,0 +1,52 @@
+name: 🚀 Build & Deploy crm-web
+
+on:
+  push:
+    branches:
+      - deprecated-scp-deploy
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧾 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔧 Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install deps
+        run: npm ci
+
+      - name: 🏗 Build Nuxt
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: |
+          npm run build
+          echo "✅ Build completed"
+          ls -la .output/
+
+      - name: 📂 Upload .output to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.DO_HOST }}
+          username: ${{ secrets.DO_USER }}
+          password: ${{ secrets.DO_PASSWORD }}
+          source: ".output/"
+          target: "/var/www/crm-web"
+          overwrite: true
+          rm: true
+
+      - name: 🚀 Restart app via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DO_HOST }}
+          username: ${{ secrets.DO_USER }}
+          password: ${{ secrets.DO_PASSWORD }}
+          script: |
+            echo "==> [crm-web] $(date) restart with new build"
+            bash /var/www/deploy/crm-web/deploy.sh

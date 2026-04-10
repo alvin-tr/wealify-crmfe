@@ -1,0 +1,2209 @@
+
+@font-face {
+  font-family: 'SalesforceDesignSystemIcons';
+  src: url('../fonts/SalesforceDesignSystemIcons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slds-icon {
+  font-family: 'SalesforceDesignSystemIcons';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+}
+
+.slds-icon-add-contact::before {
+  content: '\ea01';
+}
+.slds-icon-add-file::before {
+  content: '\ea02';
+}
+.slds-icon-add-photo-video::before {
+  content: '\ea03';
+}
+.slds-icon-add-relationship::before {
+  content: '\ea04';
+}
+.slds-icon-announcement::before {
+  content: '\ea05';
+}
+.slds-icon-apex::before {
+  content: '\ea06';
+}
+.slds-icon-approval::before {
+  content: '\ea07';
+}
+.slds-icon-back::before {
+  content: '\ea08';
+}
+.slds-icon-call::before {
+  content: '\ea09';
+}
+.slds-icon-canvas::before {
+  content: '\ea0a';
+}
+.slds-icon-change-owner::before {
+  content: '\ea0b';
+}
+.slds-icon-change-record-type::before {
+  content: '\ea0c';
+}
+.slds-icon-check::before {
+  content: '\ea0d';
+}
+.slds-icon-clone::before {
+  content: '\ea0e';
+}
+.slds-icon-close::before {
+  content: '\ea0f';
+}
+.slds-icon-defer::before {
+  content: '\ea10';
+}
+.slds-icon-delete::before {
+  content: '\ea11';
+}
+.slds-icon-description::before {
+  content: '\ea12';
+}
+.slds-icon-dial-in::before {
+  content: '\ea13';
+}
+.slds-icon-download::before {
+  content: '\ea14';
+}
+.slds-icon-edit::before {
+  content: '\ea15';
+}
+.slds-icon-edit-groups::before {
+  content: '\ea16';
+}
+.slds-icon-edit-relationship::before {
+  content: '\ea17';
+}
+.slds-icon-email::before {
+  content: '\ea18';
+}
+.slds-icon-fallback::before {
+  content: '\ea19';
+}
+.slds-icon-filter::before {
+  content: '\ea1a';
+}
+.slds-icon-flow::before {
+  content: '\ea1b';
+}
+.slds-icon-follow::before {
+  content: '\ea1c';
+}
+.slds-icon-following::before {
+  content: '\ea1d';
+}
+.slds-icon-freeze-user::before {
+  content: '\ea1e';
+}
+.slds-icon-goal::before {
+  content: '\ea1f';
+}
+.slds-icon-google-news::before {
+  content: '\ea20';
+}
+.slds-icon-info::before {
+  content: '\ea21';
+}
+.slds-icon-join-group::before {
+  content: '\ea22';
+}
+.slds-icon-lead-convert::before {
+  content: '\ea23';
+}
+.slds-icon-leave-group::before {
+  content: '\ea24';
+}
+.slds-icon-log-a-call::before {
+  content: '\ea25';
+}
+.slds-icon-log-event::before {
+  content: '\ea26';
+}
+.slds-icon-manage-perm-sets::before {
+  content: '\ea27';
+}
+.slds-icon-map::before {
+  content: '\ea28';
+}
+.slds-icon-more::before {
+  content: '\ea29';
+}
+.slds-icon-new::before {
+  content: '\ea2a';
+}
+.slds-icon-new-account::before {
+  content: '\ea2b';
+}
+.slds-icon-new-campaign::before {
+  content: '\ea2c';
+}
+.slds-icon-new-case::before {
+  content: '\ea2d';
+}
+.slds-icon-new-child-case::before {
+  content: '\ea2e';
+}
+.slds-icon-new-contact::before {
+  content: '\ea2f';
+}
+.slds-icon-new-custom1::before {
+  content: '\ea30';
+}
+.slds-icon-new-custom10::before {
+  content: '\ea31';
+}
+.slds-icon-new-custom100::before {
+  content: '\ea32';
+}
+.slds-icon-new-custom11::before {
+  content: '\ea33';
+}
+.slds-icon-new-custom12::before {
+  content: '\ea34';
+}
+.slds-icon-new-custom13::before {
+  content: '\ea35';
+}
+.slds-icon-new-custom14::before {
+  content: '\ea36';
+}
+.slds-icon-new-custom15::before {
+  content: '\ea37';
+}
+.slds-icon-new-custom16::before {
+  content: '\ea38';
+}
+.slds-icon-new-custom17::before {
+  content: '\ea39';
+}
+.slds-icon-new-custom18::before {
+  content: '\ea3a';
+}
+.slds-icon-new-custom19::before {
+  content: '\ea3b';
+}
+.slds-icon-new-custom2::before {
+  content: '\ea3c';
+}
+.slds-icon-new-custom20::before {
+  content: '\ea3d';
+}
+.slds-icon-new-custom21::before {
+  content: '\ea3e';
+}
+.slds-icon-new-custom22::before {
+  content: '\ea3f';
+}
+.slds-icon-new-custom23::before {
+  content: '\ea40';
+}
+.slds-icon-new-custom24::before {
+  content: '\ea41';
+}
+.slds-icon-new-custom25::before {
+  content: '\ea42';
+}
+.slds-icon-new-custom26::before {
+  content: '\ea43';
+}
+.slds-icon-new-custom27::before {
+  content: '\ea44';
+}
+.slds-icon-new-custom28::before {
+  content: '\ea45';
+}
+.slds-icon-new-custom29::before {
+  content: '\ea46';
+}
+.slds-icon-new-custom3::before {
+  content: '\ea47';
+}
+.slds-icon-new-custom30::before {
+  content: '\ea48';
+}
+.slds-icon-new-custom31::before {
+  content: '\ea49';
+}
+.slds-icon-new-custom32::before {
+  content: '\ea4a';
+}
+.slds-icon-new-custom33::before {
+  content: '\ea4b';
+}
+.slds-icon-new-custom34::before {
+  content: '\ea4c';
+}
+.slds-icon-new-custom35::before {
+  content: '\ea4d';
+}
+.slds-icon-new-custom36::before {
+  content: '\ea4e';
+}
+.slds-icon-new-custom37::before {
+  content: '\ea4f';
+}
+.slds-icon-new-custom38::before {
+  content: '\ea50';
+}
+.slds-icon-new-custom39::before {
+  content: '\ea51';
+}
+.slds-icon-new-custom4::before {
+  content: '\ea52';
+}
+.slds-icon-new-custom40::before {
+  content: '\ea53';
+}
+.slds-icon-new-custom41::before {
+  content: '\ea54';
+}
+.slds-icon-new-custom42::before {
+  content: '\ea55';
+}
+.slds-icon-new-custom43::before {
+  content: '\ea56';
+}
+.slds-icon-new-custom44::before {
+  content: '\ea57';
+}
+.slds-icon-new-custom45::before {
+  content: '\ea58';
+}
+.slds-icon-new-custom46::before {
+  content: '\ea59';
+}
+.slds-icon-new-custom47::before {
+  content: '\ea5a';
+}
+.slds-icon-new-custom48::before {
+  content: '\ea5b';
+}
+.slds-icon-new-custom49::before {
+  content: '\ea5c';
+}
+.slds-icon-new-custom5::before {
+  content: '\ea5d';
+}
+.slds-icon-new-custom50::before {
+  content: '\ea5e';
+}
+.slds-icon-new-custom51::before {
+  content: '\ea5f';
+}
+.slds-icon-new-custom52::before {
+  content: '\ea60';
+}
+.slds-icon-new-custom53::before {
+  content: '\ea61';
+}
+.slds-icon-new-custom54::before {
+  content: '\ea62';
+}
+.slds-icon-new-custom55::before {
+  content: '\ea63';
+}
+.slds-icon-new-custom56::before {
+  content: '\ea64';
+}
+.slds-icon-new-custom57::before {
+  content: '\ea65';
+}
+.slds-icon-new-custom58::before {
+  content: '\ea66';
+}
+.slds-icon-new-custom59::before {
+  content: '\ea67';
+}
+.slds-icon-new-custom6::before {
+  content: '\ea68';
+}
+.slds-icon-new-custom60::before {
+  content: '\ea69';
+}
+.slds-icon-new-custom61::before {
+  content: '\ea6a';
+}
+.slds-icon-new-custom62::before {
+  content: '\ea6b';
+}
+.slds-icon-new-custom63::before {
+  content: '\ea6c';
+}
+.slds-icon-new-custom64::before {
+  content: '\ea6d';
+}
+.slds-icon-new-custom65::before {
+  content: '\ea6e';
+}
+.slds-icon-new-custom66::before {
+  content: '\ea6f';
+}
+.slds-icon-new-custom67::before {
+  content: '\ea70';
+}
+.slds-icon-new-custom68::before {
+  content: '\ea71';
+}
+.slds-icon-new-custom69::before {
+  content: '\ea72';
+}
+.slds-icon-new-custom7::before {
+  content: '\ea73';
+}
+.slds-icon-new-custom70::before {
+  content: '\ea74';
+}
+.slds-icon-new-custom71::before {
+  content: '\ea75';
+}
+.slds-icon-new-custom72::before {
+  content: '\ea76';
+}
+.slds-icon-new-custom73::before {
+  content: '\ea77';
+}
+.slds-icon-new-custom74::before {
+  content: '\ea78';
+}
+.slds-icon-new-custom75::before {
+  content: '\ea79';
+}
+.slds-icon-new-custom76::before {
+  content: '\ea7a';
+}
+.slds-icon-new-custom77::before {
+  content: '\ea7b';
+}
+.slds-icon-new-custom78::before {
+  content: '\ea7c';
+}
+.slds-icon-new-custom79::before {
+  content: '\ea7d';
+}
+.slds-icon-new-custom8::before {
+  content: '\ea7e';
+}
+.slds-icon-new-custom80::before {
+  content: '\ea7f';
+}
+.slds-icon-new-custom81::before {
+  content: '\ea80';
+}
+.slds-icon-new-custom82::before {
+  content: '\ea81';
+}
+.slds-icon-new-custom83::before {
+  content: '\ea82';
+}
+.slds-icon-new-custom84::before {
+  content: '\ea83';
+}
+.slds-icon-new-custom85::before {
+  content: '\ea84';
+}
+.slds-icon-new-custom86::before {
+  content: '\ea85';
+}
+.slds-icon-new-custom87::before {
+  content: '\ea86';
+}
+.slds-icon-new-custom88::before {
+  content: '\ea87';
+}
+.slds-icon-new-custom89::before {
+  content: '\ea88';
+}
+.slds-icon-new-custom9::before {
+  content: '\ea89';
+}
+.slds-icon-new-custom90::before {
+  content: '\ea8a';
+}
+.slds-icon-new-custom91::before {
+  content: '\ea8b';
+}
+.slds-icon-new-custom92::before {
+  content: '\ea8c';
+}
+.slds-icon-new-custom93::before {
+  content: '\ea8d';
+}
+.slds-icon-new-custom94::before {
+  content: '\ea8e';
+}
+.slds-icon-new-custom95::before {
+  content: '\ea8f';
+}
+.slds-icon-new-custom96::before {
+  content: '\ea90';
+}
+.slds-icon-new-custom97::before {
+  content: '\ea91';
+}
+.slds-icon-new-custom98::before {
+  content: '\ea92';
+}
+.slds-icon-new-custom99::before {
+  content: '\ea93';
+}
+.slds-icon-new-event::before {
+  content: '\ea94';
+}
+.slds-icon-new-group::before {
+  content: '\ea95';
+}
+.slds-icon-new-lead::before {
+  content: '\ea96';
+}
+.slds-icon-new-note::before {
+  content: '\ea97';
+}
+.slds-icon-new-notebook::before {
+  content: '\ea98';
+}
+.slds-icon-new-opportunity::before {
+  content: '\ea99';
+}
+.slds-icon-new-person-account::before {
+  content: '\ea9a';
+}
+.slds-icon-new-task::before {
+  content: '\ea9b';
+}
+.slds-icon-password-unlock::before {
+  content: '\ea9c';
+}
+.slds-icon-preview::before {
+  content: '\ea9d';
+}
+.slds-icon-priority::before {
+  content: '\ea9e';
+}
+.slds-icon-question-post-action::before {
+  content: '\ea9f';
+}
+.slds-icon-quote::before {
+  content: '\eaa0';
+}
+.slds-icon-recall::before {
+  content: '\eaa1';
+}
+.slds-icon-record::before {
+  content: '\eaa2';
+}
+.slds-icon-refresh::before {
+  content: '\eaa3';
+}
+.slds-icon-reject::before {
+  content: '\eaa4';
+}
+.slds-icon-remove::before {
+  content: '\eaa5';
+}
+.slds-icon-remove-relationship::before {
+  content: '\eaa6';
+}
+.slds-icon-reset-password::before {
+  content: '\eaa7';
+}
+.slds-icon-share::before {
+  content: '\eaa8';
+}
+.slds-icon-share-file::before {
+  content: '\eaa9';
+}
+.slds-icon-share-link::before {
+  content: '\eaaa';
+}
+.slds-icon-share-poll::before {
+  content: '\eaab';
+}
+.slds-icon-share-post::before {
+  content: '\eaac';
+}
+.slds-icon-share-thanks::before {
+  content: '\eaad';
+}
+.slds-icon-sort::before {
+  content: '\eaae';
+}
+.slds-icon-submit-for-approval::before {
+  content: '\eaaf';
+}
+.slds-icon-update::before {
+  content: '\eab0';
+}
+.slds-icon-update-status::before {
+  content: '\eab1';
+}
+.slds-icon-upload::before {
+  content: '\eab2';
+}
+.slds-icon-user::before {
+  content: '\eab3';
+}
+.slds-icon-user-activation::before {
+  content: '\eab4';
+}
+.slds-icon-view-relationship::before {
+  content: '\eab5';
+}
+.slds-icon-web-link::before {
+  content: '\eab6';
+}
+.slds-icon-custom10::before {
+  content: '\ea01';
+}
+.slds-icon-custom100::before {
+  content: '\ea02';
+}
+.slds-icon-custom101::before {
+  content: '\ea03';
+}
+.slds-icon-custom102::before {
+  content: '\ea04';
+}
+.slds-icon-custom103::before {
+  content: '\ea05';
+}
+.slds-icon-custom104::before {
+  content: '\ea06';
+}
+.slds-icon-custom105::before {
+  content: '\ea07';
+}
+.slds-icon-custom106::before {
+  content: '\ea08';
+}
+.slds-icon-custom107::before {
+  content: '\ea09';
+}
+.slds-icon-custom108::before {
+  content: '\ea0a';
+}
+.slds-icon-custom109::before {
+  content: '\ea0b';
+}
+.slds-icon-custom11::before {
+  content: '\ea0c';
+}
+.slds-icon-custom110::before {
+  content: '\ea0d';
+}
+.slds-icon-custom111::before {
+  content: '\ea0e';
+}
+.slds-icon-custom112::before {
+  content: '\ea0f';
+}
+.slds-icon-custom113::before {
+  content: '\ea10';
+}
+.slds-icon-custom12::before {
+  content: '\ea11';
+}
+.slds-icon-custom13::before {
+  content: '\ea12';
+}
+.slds-icon-custom14::before {
+  content: '\ea13';
+}
+.slds-icon-custom15::before {
+  content: '\ea14';
+}
+.slds-icon-custom16::before {
+  content: '\ea15';
+}
+.slds-icon-custom17::before {
+  content: '\ea16';
+}
+.slds-icon-custom18::before {
+  content: '\ea17';
+}
+.slds-icon-custom19::before {
+  content: '\ea18';
+}
+.slds-icon-custom2::before {
+  content: '\ea19';
+}
+.slds-icon-custom20::before {
+  content: '\ea1a';
+}
+.slds-icon-custom21::before {
+  content: '\ea1b';
+}
+.slds-icon-custom22::before {
+  content: '\ea1c';
+}
+.slds-icon-custom23::before {
+  content: '\ea1d';
+}
+.slds-icon-custom24::before {
+  content: '\ea1e';
+}
+.slds-icon-custom25::before {
+  content: '\ea1f';
+}
+.slds-icon-custom26::before {
+  content: '\ea20';
+}
+.slds-icon-custom27::before {
+  content: '\ea21';
+}
+.slds-icon-custom28::before {
+  content: '\ea22';
+}
+.slds-icon-custom29::before {
+  content: '\ea23';
+}
+.slds-icon-custom3::before {
+  content: '\ea24';
+}
+.slds-icon-custom30::before {
+  content: '\ea25';
+}
+.slds-icon-custom31::before {
+  content: '\ea26';
+}
+.slds-icon-custom32::before {
+  content: '\ea27';
+}
+.slds-icon-custom33::before {
+  content: '\ea28';
+}
+.slds-icon-custom34::before {
+  content: '\ea29';
+}
+.slds-icon-custom35::before {
+  content: '\ea2a';
+}
+.slds-icon-custom36::before {
+  content: '\ea2b';
+}
+.slds-icon-custom37::before {
+  content: '\ea2c';
+}
+.slds-icon-custom38::before {
+  content: '\ea2d';
+}
+.slds-icon-custom39::before {
+  content: '\ea2e';
+}
+.slds-icon-custom4::before {
+  content: '\ea2f';
+}
+.slds-icon-custom40::before {
+  content: '\ea30';
+}
+.slds-icon-custom41::before {
+  content: '\ea31';
+}
+.slds-icon-custom42::before {
+  content: '\ea32';
+}
+.slds-icon-custom43::before {
+  content: '\ea33';
+}
+.slds-icon-custom44::before {
+  content: '\ea34';
+}
+.slds-icon-custom45::before {
+  content: '\ea35';
+}
+.slds-icon-custom46::before {
+  content: '\ea36';
+}
+.slds-icon-custom47::before {
+  content: '\ea37';
+}
+.slds-icon-custom48::before {
+  content: '\ea38';
+}
+.slds-icon-custom49::before {
+  content: '\ea39';
+}
+.slds-icon-custom5::before {
+  content: '\ea3a';
+}
+.slds-icon-custom50::before {
+  content: '\ea3b';
+}
+.slds-icon-custom51::before {
+  content: '\ea3c';
+}
+.slds-icon-custom52::before {
+  content: '\ea3d';
+}
+.slds-icon-custom53::before {
+  content: '\ea3e';
+}
+.slds-icon-custom54::before {
+  content: '\ea3f';
+}
+.slds-icon-custom55::before {
+  content: '\ea40';
+}
+.slds-icon-custom56::before {
+  content: '\ea41';
+}
+.slds-icon-custom57::before {
+  content: '\ea42';
+}
+.slds-icon-custom58::before {
+  content: '\ea43';
+}
+.slds-icon-custom59::before {
+  content: '\ea44';
+}
+.slds-icon-custom6::before {
+  content: '\ea45';
+}
+.slds-icon-custom60::before {
+  content: '\ea46';
+}
+.slds-icon-custom61::before {
+  content: '\ea47';
+}
+.slds-icon-custom62::before {
+  content: '\ea48';
+}
+.slds-icon-custom63::before {
+  content: '\ea49';
+}
+.slds-icon-custom64::before {
+  content: '\ea4a';
+}
+.slds-icon-custom65::before {
+  content: '\ea4b';
+}
+.slds-icon-custom66::before {
+  content: '\ea4c';
+}
+.slds-icon-custom67::before {
+  content: '\ea4d';
+}
+.slds-icon-custom68::before {
+  content: '\ea4e';
+}
+.slds-icon-custom69::before {
+  content: '\ea4f';
+}
+.slds-icon-custom7::before {
+  content: '\ea50';
+}
+.slds-icon-custom70::before {
+  content: '\ea51';
+}
+.slds-icon-custom71::before {
+  content: '\ea52';
+}
+.slds-icon-custom72::before {
+  content: '\ea53';
+}
+.slds-icon-custom73::before {
+  content: '\ea54';
+}
+.slds-icon-custom74::before {
+  content: '\ea55';
+}
+.slds-icon-custom75::before {
+  content: '\ea56';
+}
+.slds-icon-custom76::before {
+  content: '\ea57';
+}
+.slds-icon-custom77::before {
+  content: '\ea58';
+}
+.slds-icon-custom78::before {
+  content: '\ea59';
+}
+.slds-icon-custom79::before {
+  content: '\ea5a';
+}
+.slds-icon-custom8::before {
+  content: '\ea5b';
+}
+.slds-icon-custom80::before {
+  content: '\ea5c';
+}
+.slds-icon-custom81::before {
+  content: '\ea5d';
+}
+.slds-icon-custom82::before {
+  content: '\ea5e';
+}
+.slds-icon-custom83::before {
+  content: '\ea5f';
+}
+.slds-icon-custom84::before {
+  content: '\ea60';
+}
+.slds-icon-custom85::before {
+  content: '\ea61';
+}
+.slds-icon-custom86::before {
+  content: '\ea62';
+}
+.slds-icon-custom87::before {
+  content: '\ea63';
+}
+.slds-icon-custom88::before {
+  content: '\ea64';
+}
+.slds-icon-custom89::before {
+  content: '\ea65';
+}
+.slds-icon-custom9::before {
+  content: '\ea66';
+}
+.slds-icon-custom90::before {
+  content: '\ea67';
+}
+.slds-icon-custom91::before {
+  content: '\ea68';
+}
+.slds-icon-custom92::before {
+  content: '\ea69';
+}
+.slds-icon-custom93::before {
+  content: '\ea6a';
+}
+.slds-icon-custom94::before {
+  content: '\ea6b';
+}
+.slds-icon-custom95::before {
+  content: '\ea6c';
+}
+.slds-icon-custom96::before {
+  content: '\ea6d';
+}
+.slds-icon-custom97::before {
+  content: '\ea6e';
+}
+.slds-icon-custom98::before {
+  content: '\ea6f';
+}
+.slds-icon-custom99::before {
+  content: '\ea70';
+}
+.slds-icon-address::before {
+  content: '\ea01';
+}
+.slds-icon-announcement::before {
+  content: '\ea02';
+}
+.slds-icon-answer-best::before {
+  content: '\ea03';
+}
+.slds-icon-answer-private::before {
+  content: '\ea04';
+}
+.slds-icon-answer-public::before {
+  content: '\ea05';
+}
+.slds-icon-approval::before {
+  content: '\ea06';
+}
+.slds-icon-apps::before {
+  content: '\ea07';
+}
+.slds-icon-apps-admin::before {
+  content: '\ea08';
+}
+.slds-icon-article::before {
+  content: '\ea09';
+}
+.slds-icon-asset-relationship::before {
+  content: '\ea0a';
+}
+.slds-icon-assigned-resource::before {
+  content: '\ea0b';
+}
+.slds-icon-avatar::before {
+  content: '\ea0c';
+}
+.slds-icon-avatar-loading::before {
+  content: '\ea0d';
+}
+.slds-icon-bot::before {
+  content: '\ea0e';
+}
+.slds-icon-business-hours::before {
+  content: '\ea0f';
+}
+.slds-icon-calibration::before {
+  content: '\ea10';
+}
+.slds-icon-call::before {
+  content: '\ea11';
+}
+.slds-icon-call-history::before {
+  content: '\ea12';
+}
+.slds-icon-campaign::before {
+  content: '\ea13';
+}
+.slds-icon-campaign-members::before {
+  content: '\ea14';
+}
+.slds-icon-canvas::before {
+  content: '\ea15';
+}
+.slds-icon-carousel::before {
+  content: '\ea16';
+}
+.slds-icon-case::before {
+  content: '\ea17';
+}
+.slds-icon-case-change-status::before {
+  content: '\ea18';
+}
+.slds-icon-case-comment::before {
+  content: '\ea19';
+}
+.slds-icon-case-email::before {
+  content: '\ea1a';
+}
+.slds-icon-case-log-a-call::before {
+  content: '\ea1b';
+}
+.slds-icon-case-milestone::before {
+  content: '\ea1c';
+}
+.slds-icon-case-transcript::before {
+  content: '\ea1d';
+}
+.slds-icon-client::before {
+  content: '\ea1e';
+}
+.slds-icon-cms::before {
+  content: '\ea1f';
+}
+.slds-icon-coaching::before {
+  content: '\ea20';
+}
+.slds-icon-connected-apps::before {
+  content: '\ea21';
+}
+.slds-icon-contact::before {
+  content: '\ea22';
+}
+.slds-icon-contact-list::before {
+  content: '\ea23';
+}
+.slds-icon-contract::before {
+  content: '\ea24';
+}
+.slds-icon-contract-line-item::before {
+  content: '\ea25';
+}
+.slds-icon-custom::before {
+  content: '\ea26';
+}
+.slds-icon-custom-notification::before {
+  content: '\ea27';
+}
+.slds-icon-dashboard::before {
+  content: '\ea28';
+}
+.slds-icon-datadotcom::before {
+  content: '\ea29';
+}
+.slds-icon-default::before {
+  content: '\ea2a';
+}
+.slds-icon-document::before {
+  content: '\ea2b';
+}
+.slds-icon-drafts::before {
+  content: '\ea2c';
+}
+.slds-icon-email::before {
+  content: '\ea2d';
+}
+.slds-icon-email-chatter::before {
+  content: '\ea2e';
+}
+.slds-icon-empty::before {
+  content: '\ea2f';
+}
+.slds-icon-endorsement::before {
+  content: '\ea30';
+}
+.slds-icon-entitlement::before {
+  content: '\ea31';
+}
+.slds-icon-entitlement-process::before {
+  content: '\ea32';
+}
+.slds-icon-entitlement-template::before {
+  content: '\ea33';
+}
+.slds-icon-entity::before {
+  content: '\ea34';
+}
+.slds-icon-entity-milestone::before {
+  content: '\ea35';
+}
+.slds-icon-environment-hub::before {
+  content: '\ea36';
+}
+.slds-icon-event::before {
+  content: '\ea37';
+}
+.slds-icon-feed::before {
+  content: '\ea38';
+}
+.slds-icon-feedback::before {
+  content: '\ea39';
+}
+.slds-icon-file::before {
+  content: '\ea3a';
+}
+.slds-icon-flow::before {
+  content: '\ea3b';
+}
+.slds-icon-folder::before {
+  content: '\ea3c';
+}
+.slds-icon-forecasts::before {
+  content: '\ea3d';
+}
+.slds-icon-generic-loading::before {
+  content: '\ea3e';
+}
+.slds-icon-goals::before {
+  content: '\ea3f';
+}
+.slds-icon-group-loading::before {
+  content: '\ea40';
+}
+.slds-icon-groups::before {
+  content: '\ea41';
+}
+.slds-icon-hierarchy::before {
+  content: '\ea42';
+}
+.slds-icon-home::before {
+  content: '\ea43';
+}
+.slds-icon-household::before {
+  content: '\ea44';
+}
+.slds-icon-insights::before {
+  content: '\ea45';
+}
+.slds-icon-investment-account::before {
+  content: '\ea46';
+}
+.slds-icon-lead::before {
+  content: '\ea47';
+}
+.slds-icon-lead-insights::before {
+  content: '\ea48';
+}
+.slds-icon-lead-list::before {
+  content: '\ea49';
+}
+.slds-icon-link::before {
+  content: '\ea4a';
+}
+.slds-icon-list-email::before {
+  content: '\ea4b';
+}
+.slds-icon-live-chat::before {
+  content: '\ea4c';
+}
+.slds-icon-location::before {
+  content: '\ea4d';
+}
+.slds-icon-log-a-call::before {
+  content: '\ea4e';
+}
+.slds-icon-macros::before {
+  content: '\ea4f';
+}
+.slds-icon-maintenance-asset::before {
+  content: '\ea50';
+}
+.slds-icon-maintenance-plan::before {
+  content: '\ea51';
+}
+.slds-icon-marketing-actions::before {
+  content: '\ea52';
+}
+.slds-icon-merge::before {
+  content: '\ea53';
+}
+.slds-icon-metrics::before {
+  content: '\ea54';
+}
+.slds-icon-news::before {
+  content: '\ea55';
+}
+.slds-icon-note::before {
+  content: '\ea56';
+}
+.slds-icon-omni-supervisor::before {
+  content: '\ea57';
+}
+.slds-icon-operating-hours::before {
+  content: '\ea58';
+}
+.slds-icon-opportunity::before {
+  content: '\ea59';
+}
+.slds-icon-opportunity-splits::before {
+  content: '\ea5a';
+}
+.slds-icon-orders::before {
+  content: '\ea5b';
+}
+.slds-icon-people::before {
+  content: '\ea5c';
+}
+.slds-icon-performance::before {
+  content: '\ea5d';
+}
+.slds-icon-person-account::before {
+  content: '\ea5e';
+}
+.slds-icon-photo::before {
+  content: '\ea5f';
+}
+.slds-icon-poll::before {
+  content: '\ea60';
+}
+.slds-icon-portal::before {
+  content: '\ea61';
+}
+.slds-icon-post::before {
+  content: '\ea62';
+}
+.slds-icon-pricebook::before {
+  content: '\ea63';
+}
+.slds-icon-process::before {
+  content: '\ea64';
+}
+.slds-icon-product::before {
+  content: '\ea65';
+}
+.slds-icon-product-consumed::before {
+  content: '\ea66';
+}
+.slds-icon-product-item::before {
+  content: '\ea67';
+}
+.slds-icon-product-item-transaction::before {
+  content: '\ea68';
+}
+.slds-icon-product-request::before {
+  content: '\ea69';
+}
+.slds-icon-product-request-line-item::before {
+  content: '\ea6a';
+}
+.slds-icon-product-required::before {
+  content: '\ea6b';
+}
+.slds-icon-product-transfer::before {
+  content: '\ea6c';
+}
+.slds-icon-question-best::before {
+  content: '\ea6d';
+}
+.slds-icon-question-feed::before {
+  content: '\ea6e';
+}
+.slds-icon-quick-text::before {
+  content: '\ea6f';
+}
+.slds-icon-quip::before {
+  content: '\ea70';
+}
+.slds-icon-quip-sheet::before {
+  content: '\ea71';
+}
+.slds-icon-quotes::before {
+  content: '\ea72';
+}
+.slds-icon-recent::before {
+  content: '\ea73';
+}
+.slds-icon-record::before {
+  content: '\ea74';
+}
+.slds-icon-related-list::before {
+  content: '\ea75';
+}
+.slds-icon-relationship::before {
+  content: '\ea76';
+}
+.slds-icon-report::before {
+  content: '\ea77';
+}
+.slds-icon-resource-absence::before {
+  content: '\ea78';
+}
+.slds-icon-resource-capacity::before {
+  content: '\ea79';
+}
+.slds-icon-resource-preference::before {
+  content: '\ea7a';
+}
+.slds-icon-resource-skill::before {
+  content: '\ea7b';
+}
+.slds-icon-reward::before {
+  content: '\ea7c';
+}
+.slds-icon-rtc-presence::before {
+  content: '\ea7d';
+}
+.slds-icon-sales-path::before {
+  content: '\ea7e';
+}
+.slds-icon-scan-card::before {
+  content: '\ea7f';
+}
+.slds-icon-service-appointment::before {
+  content: '\ea80';
+}
+.slds-icon-service-contract::before {
+  content: '\ea81';
+}
+.slds-icon-service-crew::before {
+  content: '\ea82';
+}
+.slds-icon-service-crew-member::before {
+  content: '\ea83';
+}
+.slds-icon-service-report::before {
+  content: '\ea84';
+}
+.slds-icon-service-resource::before {
+  content: '\ea85';
+}
+.slds-icon-service-territory::before {
+  content: '\ea86';
+}
+.slds-icon-service-territory-location::before {
+  content: '\ea87';
+}
+.slds-icon-service-territory-member::before {
+  content: '\ea88';
+}
+.slds-icon-shipment::before {
+  content: '\ea89';
+}
+.slds-icon-skill::before {
+  content: '\ea8a';
+}
+.slds-icon-skill-entity::before {
+  content: '\ea8b';
+}
+.slds-icon-skill-requirement::before {
+  content: '\ea8c';
+}
+.slds-icon-social::before {
+  content: '\ea8d';
+}
+.slds-icon-solution::before {
+  content: '\ea8e';
+}
+.slds-icon-sossession::before {
+  content: '\ea8f';
+}
+.slds-icon-task::before {
+  content: '\ea90';
+}
+.slds-icon-task2::before {
+  content: '\ea91';
+}
+.slds-icon-team-member::before {
+  content: '\ea92';
+}
+.slds-icon-template::before {
+  content: '\ea93';
+}
+.slds-icon-thanks::before {
+  content: '\ea94';
+}
+.slds-icon-thanks-loading::before {
+  content: '\ea95';
+}
+.slds-icon-timesheet::before {
+  content: '\ea96';
+}
+.slds-icon-timesheet-entry::before {
+  content: '\ea97';
+}
+.slds-icon-timeslot::before {
+  content: '\ea98';
+}
+.slds-icon-today::before {
+  content: '\ea99';
+}
+.slds-icon-topic::before {
+  content: '\ea9a';
+}
+.slds-icon-topic2::before {
+  content: '\ea9b';
+}
+.slds-icon-unmatched::before {
+  content: '\ea9c';
+}
+.slds-icon-user::before {
+  content: '\ea9d';
+}
+.slds-icon-work-order::before {
+  content: '\ea9e';
+}
+.slds-icon-work-order-item::before {
+  content: '\ea9f';
+}
+.slds-icon-work-type::before {
+  content: '\eaa0';
+}
+.slds-icon-ad-set::before {
+  content: '\ea01';
+}
+.slds-icon-add::before {
+  content: '\ea02';
+}
+.slds-icon-adduser::before {
+  content: '\ea03';
+}
+.slds-icon-anchor::before {
+  content: '\ea04';
+}
+.slds-icon-animal-and-nature::before {
+  content: '\ea05';
+}
+.slds-icon-announcement::before {
+  content: '\ea06';
+}
+.slds-icon-answer::before {
+  content: '\ea07';
+}
+.slds-icon-answered-twice::before {
+  content: '\ea08';
+}
+.slds-icon-apex::before {
+  content: '\ea09';
+}
+.slds-icon-approval::before {
+  content: '\ea0a';
+}
+.slds-icon-apps::before {
+  content: '\ea0b';
+}
+.slds-icon-arrowdown::before {
+  content: '\ea0c';
+}
+.slds-icon-arrowup::before {
+  content: '\ea0d';
+}
+.slds-icon-attach::before {
+  content: '\ea0e';
+}
+.slds-icon-automate::before {
+  content: '\ea0f';
+}
+.slds-icon-back::before {
+  content: '\ea10';
+}
+.slds-icon-ban::before {
+  content: '\ea11';
+}
+.slds-icon-block-visitor::before {
+  content: '\ea12';
+}
+.slds-icon-bold::before {
+  content: '\ea13';
+}
+.slds-icon-bookmark::before {
+  content: '\ea14';
+}
+.slds-icon-breadcrumbs::before {
+  content: '\ea15';
+}
+.slds-icon-broadcast::before {
+  content: '\ea16';
+}
+.slds-icon-brush::before {
+  content: '\ea17';
+}
+.slds-icon-bucket::before {
+  content: '\ea18';
+}
+.slds-icon-builder::before {
+  content: '\ea19';
+}
+.slds-icon-call::before {
+  content: '\ea1a';
+}
+.slds-icon-campaign::before {
+  content: '\ea1b';
+}
+.slds-icon-cancel-file-request::before {
+  content: '\ea1c';
+}
+.slds-icon-cancel-transfer::before {
+  content: '\ea1d';
+}
+.slds-icon-capslock::before {
+  content: '\ea1e';
+}
+.slds-icon-case::before {
+  content: '\ea1f';
+}
+.slds-icon-cases::before {
+  content: '\ea20';
+}
+.slds-icon-center-align-text::before {
+  content: '\ea21';
+}
+.slds-icon-change-owner::before {
+  content: '\ea22';
+}
+.slds-icon-change-record-type::before {
+  content: '\ea23';
+}
+.slds-icon-chart::before {
+  content: '\ea24';
+}
+.slds-icon-chat::before {
+  content: '\ea25';
+}
+.slds-icon-check::before {
+  content: '\ea26';
+}
+.slds-icon-checkin::before {
+  content: '\ea27';
+}
+.slds-icon-chevrondown::before {
+  content: '\ea28';
+}
+.slds-icon-chevronleft::before {
+  content: '\ea29';
+}
+.slds-icon-chevronright::before {
+  content: '\ea2a';
+}
+.slds-icon-chevronup::before {
+  content: '\ea2b';
+}
+.slds-icon-classic-interface::before {
+  content: '\ea2c';
+}
+.slds-icon-clear::before {
+  content: '\ea2d';
+}
+.slds-icon-clock::before {
+  content: '\ea2e';
+}
+.slds-icon-close::before {
+  content: '\ea2f';
+}
+.slds-icon-collapse-all::before {
+  content: '\ea30';
+}
+.slds-icon-comments::before {
+  content: '\ea31';
+}
+.slds-icon-company::before {
+  content: '\ea32';
+}
+.slds-icon-connected-apps::before {
+  content: '\ea33';
+}
+.slds-icon-contract::before {
+  content: '\ea34';
+}
+.slds-icon-contract-alt::before {
+  content: '\ea35';
+}
+.slds-icon-copy::before {
+  content: '\ea36';
+}
+.slds-icon-copy-to-clipboard::before {
+  content: '\ea37';
+}
+.slds-icon-crossfilter::before {
+  content: '\ea38';
+}
+.slds-icon-custom-apps::before {
+  content: '\ea39';
+}
+.slds-icon-cut::before {
+  content: '\ea3a';
+}
+.slds-icon-dash::before {
+  content: '\ea3b';
+}
+.slds-icon-database::before {
+  content: '\ea3c';
+}
+.slds-icon-datadotcom::before {
+  content: '\ea3d';
+}
+.slds-icon-dayview::before {
+  content: '\ea3e';
+}
+.slds-icon-delete::before {
+  content: '\ea3f';
+}
+.slds-icon-deprecate::before {
+  content: '\ea40';
+}
+.slds-icon-description::before {
+  content: '\ea41';
+}
+.slds-icon-desktop::before {
+  content: '\ea42';
+}
+.slds-icon-dislike::before {
+  content: '\ea43';
+}
+.slds-icon-dock-panel::before {
+  content: '\ea44';
+}
+.slds-icon-down::before {
+  content: '\ea45';
+}
+.slds-icon-download::before {
+  content: '\ea46';
+}
+.slds-icon-edit::before {
+  content: '\ea47';
+}
+.slds-icon-edit-form::before {
+  content: '\ea48';
+}
+.slds-icon-email::before {
+  content: '\ea49';
+}
+.slds-icon-emoji::before {
+  content: '\ea4a';
+}
+.slds-icon-end-call::before {
+  content: '\ea4b';
+}
+.slds-icon-end-chat::before {
+  content: '\ea4c';
+}
+.slds-icon-erect-window::before {
+  content: '\ea4d';
+}
+.slds-icon-error::before {
+  content: '\ea4e';
+}
+.slds-icon-event::before {
+  content: '\ea4f';
+}
+.slds-icon-expand::before {
+  content: '\ea50';
+}
+.slds-icon-expand-all::before {
+  content: '\ea51';
+}
+.slds-icon-expand-alt::before {
+  content: '\ea52';
+}
+.slds-icon-fallback::before {
+  content: '\ea53';
+}
+.slds-icon-favorite::before {
+  content: '\ea54';
+}
+.slds-icon-feed::before {
+  content: '\ea55';
+}
+.slds-icon-file::before {
+  content: '\ea56';
+}
+.slds-icon-filter::before {
+  content: '\ea57';
+}
+.slds-icon-filter-list::before {
+  content: '\ea58';
+}
+.slds-icon-flow::before {
+  content: '\ea59';
+}
+.slds-icon-food-and-drink::before {
+  content: '\ea5a';
+}
+.slds-icon-forward::before {
+  content: '\ea5b';
+}
+.slds-icon-frozen::before {
+  content: '\ea5c';
+}
+.slds-icon-full-width-view::before {
+  content: '\ea5d';
+}
+.slds-icon-graph::before {
+  content: '\ea5e';
+}
+.slds-icon-groups::before {
+  content: '\ea5f';
+}
+.slds-icon-help::before {
+  content: '\ea60';
+}
+.slds-icon-hide::before {
+  content: '\ea61';
+}
+.slds-icon-home::before {
+  content: '\ea62';
+}
+.slds-icon-identity::before {
+  content: '\ea63';
+}
+.slds-icon-image::before {
+  content: '\ea64';
+}
+.slds-icon-inbox::before {
+  content: '\ea65';
+}
+.slds-icon-info::before {
+  content: '\ea66';
+}
+.slds-icon-info-alt::before {
+  content: '\ea67';
+}
+.slds-icon-insert-tag-field::before {
+  content: '\ea68';
+}
+.slds-icon-insert-template::before {
+  content: '\ea69';
+}
+.slds-icon-internal-share::before {
+  content: '\ea6a';
+}
+.slds-icon-italic::before {
+  content: '\ea6b';
+}
+.slds-icon-jump-to-bottom::before {
+  content: '\ea6c';
+}
+.slds-icon-jump-to-top::before {
+  content: '\ea6d';
+}
+.slds-icon-justify-text::before {
+  content: '\ea6e';
+}
+.slds-icon-kanban::before {
+  content: '\ea6f';
+}
+.slds-icon-keyboard-dismiss::before {
+  content: '\ea70';
+}
+.slds-icon-knowledge-base::before {
+  content: '\ea71';
+}
+.slds-icon-layers::before {
+  content: '\ea72';
+}
+.slds-icon-layout::before {
+  content: '\ea73';
+}
+.slds-icon-left::before {
+  content: '\ea74';
+}
+.slds-icon-left-align-text::before {
+  content: '\ea75';
+}
+.slds-icon-level-up::before {
+  content: '\ea76';
+}
+.slds-icon-light-bulb::before {
+  content: '\ea77';
+}
+.slds-icon-like::before {
+  content: '\ea78';
+}
+.slds-icon-link::before {
+  content: '\ea79';
+}
+.slds-icon-list::before {
+  content: '\ea7a';
+}
+.slds-icon-location::before {
+  content: '\ea7b';
+}
+.slds-icon-lock::before {
+  content: '\ea7c';
+}
+.slds-icon-log-a-call::before {
+  content: '\ea7d';
+}
+.slds-icon-logout::before {
+  content: '\ea7e';
+}
+.slds-icon-lower-flag::before {
+  content: '\ea7f';
+}
+.slds-icon-macros::before {
+  content: '\ea80';
+}
+.slds-icon-magicwand::before {
+  content: '\ea81';
+}
+.slds-icon-mark-all-as-read::before {
+  content: '\ea82';
+}
+.slds-icon-matrix::before {
+  content: '\ea83';
+}
+.slds-icon-merge::before {
+  content: '\ea84';
+}
+.slds-icon-merge-field::before {
+  content: '\ea85';
+}
+.slds-icon-metrics::before {
+  content: '\ea86';
+}
+.slds-icon-minimize-window::before {
+  content: '\ea87';
+}
+.slds-icon-moneybag::before {
+  content: '\ea88';
+}
+.slds-icon-monthlyview::before {
+  content: '\ea89';
+}
+.slds-icon-move::before {
+  content: '\ea8a';
+}
+.slds-icon-muted::before {
+  content: '\ea8b';
+}
+.slds-icon-new::before {
+  content: '\ea8c';
+}
+.slds-icon-new-direct-message::before {
+  content: '\ea8d';
+}
+.slds-icon-new-window::before {
+  content: '\ea8e';
+}
+.slds-icon-news::before {
+  content: '\ea8f';
+}
+.slds-icon-note::before {
+  content: '\ea90';
+}
+.slds-icon-notebook::before {
+  content: '\ea91';
+}
+.slds-icon-notification::before {
+  content: '\ea92';
+}
+.slds-icon-office365::before {
+  content: '\ea93';
+}
+.slds-icon-offline::before {
+  content: '\ea94';
+}
+.slds-icon-offline-cached::before {
+  content: '\ea95';
+}
+.slds-icon-omni-channel::before {
+  content: '\ea96';
+}
+.slds-icon-open::before {
+  content: '\ea97';
+}
+.slds-icon-open-folder::before {
+  content: '\ea98';
+}
+.slds-icon-opened-folder::before {
+  content: '\ea99';
+}
+.slds-icon-overflow::before {
+  content: '\ea9a';
+}
+.slds-icon-package::before {
+  content: '\ea9b';
+}
+.slds-icon-package-org::before {
+  content: '\ea9c';
+}
+.slds-icon-package-org-beta::before {
+  content: '\ea9d';
+}
+.slds-icon-page::before {
+  content: '\ea9e';
+}
+.slds-icon-palette::before {
+  content: '\ea9f';
+}
+.slds-icon-paste::before {
+  content: '\eaa0';
+}
+.slds-icon-pause::before {
+  content: '\eaa1';
+}
+.slds-icon-people::before {
+  content: '\eaa2';
+}
+.slds-icon-phone-landscape::before {
+  content: '\eaa3';
+}
+.slds-icon-phone-portrait::before {
+  content: '\eaa4';
+}
+.slds-icon-photo::before {
+  content: '\eaa5';
+}
+.slds-icon-picklist::before {
+  content: '\eaa6';
+}
+.slds-icon-pin::before {
+  content: '\eaa7';
+}
+.slds-icon-pinned::before {
+  content: '\eaa8';
+}
+.slds-icon-power::before {
+  content: '\eaa9';
+}
+.slds-icon-preview::before {
+  content: '\eaaa';
+}
+.slds-icon-priority::before {
+  content: '\eaab';
+}
+.slds-icon-privately-shared::before {
+  content: '\eaac';
+}
+.slds-icon-process::before {
+  content: '\eaad';
+}
+.slds-icon-push::before {
+  content: '\eaae';
+}
+.slds-icon-puzzle::before {
+  content: '\eaaf';
+}
+.slds-icon-question::before {
+  content: '\eab0';
+}
+.slds-icon-question-mark::before {
+  content: '\eab1';
+}
+.slds-icon-questions-and-answers::before {
+  content: '\eab2';
+}
+.slds-icon-quick-text::before {
+  content: '\eab3';
+}
+.slds-icon-quotation-marks::before {
+  content: '\eab4';
+}
+.slds-icon-rating::before {
+  content: '\eab5';
+}
+.slds-icon-record::before {
+  content: '\eab6';
+}
+.slds-icon-record-create::before {
+  content: '\eab7';
+}
+.slds-icon-redo::before {
+  content: '\eab8';
+}
+.slds-icon-refresh::before {
+  content: '\eab9';
+}
+.slds-icon-relate::before {
+  content: '\eaba';
+}
+.slds-icon-reminder::before {
+  content: '\eabb';
+}
+.slds-icon-remove-formatting::before {
+  content: '\eabc';
+}
+.slds-icon-remove-link::before {
+  content: '\eabd';
+}
+.slds-icon-replace::before {
+  content: '\eabe';
+}
+.slds-icon-reply::before {
+  content: '\eabf';
+}
+.slds-icon-reply-all::before {
+  content: '\eac0';
+}
+.slds-icon-reset-password::before {
+  content: '\eac1';
+}
+.slds-icon-resource-absence::before {
+  content: '\eac2';
+}
+.slds-icon-resource-capacity::before {
+  content: '\eac3';
+}
+.slds-icon-resource-territory::before {
+  content: '\eac4';
+}
+.slds-icon-retweet::before {
+  content: '\eac5';
+}
+.slds-icon-richtextbulletedlist::before {
+  content: '\eac6';
+}
+.slds-icon-richtextindent::before {
+  content: '\eac7';
+}
+.slds-icon-richtextnumberedlist::before {
+  content: '\eac8';
+}
+.slds-icon-richtextoutdent::before {
+  content: '\eac9';
+}
+.slds-icon-right::before {
+  content: '\eaca';
+}
+.slds-icon-right-align-text::before {
+  content: '\eacb';
+}
+.slds-icon-rotate::before {
+  content: '\eacc';
+}
+.slds-icon-rows::before {
+  content: '\eacd';
+}
+.slds-icon-rules::before {
+  content: '\eace';
+}
+.slds-icon-salesforce1::before {
+  content: '\eacf';
+}
+.slds-icon-save::before {
+  content: '\ead0';
+}
+.slds-icon-search::before {
+  content: '\ead1';
+}
+.slds-icon-settings::before {
+  content: '\ead2';
+}
+.slds-icon-setup::before {
+  content: '\ead3';
+}
+.slds-icon-setup-assistant-guide::before {
+  content: '\ead4';
+}
+.slds-icon-share::before {
+  content: '\ead5';
+}
+.slds-icon-share-file::before {
+  content: '\ead6';
+}
+.slds-icon-share-mobile::before {
+  content: '\ead7';
+}
+.slds-icon-share-post::before {
+  content: '\ead8';
+}
+.slds-icon-shield::before {
+  content: '\ead9';
+}
+.slds-icon-shopping-bag::before {
+  content: '\eada';
+}
+.slds-icon-side-list::before {
+  content: '\eadb';
+}
+.slds-icon-signpost::before {
+  content: '\eadc';
+}
+.slds-icon-smiley-and-people::before {
+  content: '\eadd';
+}
+.slds-icon-sms::before {
+  content: '\eade';
+}
+.slds-icon-snippet::before {
+  content: '\eadf';
+}
+.slds-icon-socialshare::before {
+  content: '\eae0';
+}
+.slds-icon-sort::before {
+  content: '\eae1';
+}
+.slds-icon-spinner::before {
+  content: '\eae2';
+}
+.slds-icon-standard-objects::before {
+  content: '\eae3';
+}
+.slds-icon-stop::before {
+  content: '\eae4';
+}
+.slds-icon-strikethrough::before {
+  content: '\eae5';
+}
+.slds-icon-success::before {
+  content: '\eae6';
+}
+.slds-icon-summary::before {
+  content: '\eae7';
+}
+.slds-icon-summarydetail::before {
+  content: '\eae8';
+}
+.slds-icon-switch::before {
+  content: '\eae9';
+}
+.slds-icon-symbols::before {
+  content: '\eaea';
+}
+.slds-icon-sync::before {
+  content: '\eaeb';
+}
+.slds-icon-table::before {
+  content: '\eaec';
+}
+.slds-icon-tablet-landscape::before {
+  content: '\eaed';
+}
+.slds-icon-tablet-portrait::before {
+  content: '\eaee';
+}
+.slds-icon-tabset::before {
+  content: '\eaef';
+}
+.slds-icon-task::before {
+  content: '\eaf0';
+}
+.slds-icon-text-background-color::before {
+  content: '\eaf1';
+}
+.slds-icon-text-color::before {
+  content: '\eaf2';
+}
+.slds-icon-threedots::before {
+  content: '\eaf3';
+}
+.slds-icon-threedots-vertical::before {
+  content: '\eaf4';
+}
+.slds-icon-thunder::before {
+  content: '\eaf5';
+}
+.slds-icon-tile-card-list::before {
+  content: '\eaf6';
+}
+.slds-icon-topic::before {
+  content: '\eaf7';
+}
+.slds-icon-touch-action::before {
+  content: '\eaf8';
+}
+.slds-icon-trail::before {
+  content: '\eaf9';
+}
+.slds-icon-travel-and-places::before {
+  content: '\eafa';
+}
+.slds-icon-trending::before {
+  content: '\eafb';
+}
+.slds-icon-turn-off-notifications::before {
+  content: '\eafc';
+}
+.slds-icon-type-tool::before {
+  content: '\eafd';
+}
+.slds-icon-undelete::before {
+  content: '\eafe';
+}
+.slds-icon-undeprecate::before {
+  content: '\eaff';
+}
+.slds-icon-underline::before {
+  content: '\eb00';
+}
+.slds-icon-undo::before {
+  content: '\eb01';
+}
+.slds-icon-unlock::before {
+  content: '\eb02';
+}
+.slds-icon-unmuted::before {
+  content: '\eb03';
+}
+.slds-icon-up::before {
+  content: '\eb04';
+}
+.slds-icon-upload::before {
+  content: '\eb05';
+}
+.slds-icon-user::before {
+  content: '\eb06';
+}
+.slds-icon-user-role::before {
+  content: '\eb07';
+}
+.slds-icon-video::before {
+  content: '\eb08';
+}
+.slds-icon-voicemail-drop::before {
+  content: '\eb09';
+}
+.slds-icon-volume-high::before {
+  content: '\eb0a';
+}
+.slds-icon-volume-low::before {
+  content: '\eb0b';
+}
+.slds-icon-volume-off::before {
+  content: '\eb0c';
+}
+.slds-icon-warning::before {
+  content: '\eb0d';
+}
+.slds-icon-weeklyview::before {
+  content: '\eb0e';
+}
+.slds-icon-wifi::before {
+  content: '\eb0f';
+}
+.slds-icon-work-order-type::before {
+  content: '\eb10';
+}
+.slds-icon-world::before {
+  content: '\eb11';
+}
+.slds-icon-yubi-key::before {
+  content: '\eb12';
+}
+.slds-icon-zoomin::before {
+  content: '\eb13';
+}
+.slds-icon-zoomout::before {
+  content: '\eb14';
+}
