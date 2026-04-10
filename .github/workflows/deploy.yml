@@ -3,50 +3,51 @@ name: 🚀 Build & Deploy crm-web
 on:
   push:
     branches:
-      - deprecated-scp-deploy
+      - dev
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+    deploy:
+      runs-on: self-hosted
 
-    steps:
-      - name: 🧾 Checkout
+      steps:
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: 🔧 Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'npm'
+      - name: Build and Deploy 
+        run: | 
+          # 1. Tạo Timestamp duy nhất cho mỗi lần chạy
+          TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+          IMAGE_TAG="crm_wealify/crm-wealify:${TIMESTAMP}"
+          
+          echo "🚀 Starting build for image: $IMAGE_TAG"
+          
+          # 2. Build service với tag timestamp
+          docker build \
+            --build-arg MODE=development \
+            --build-arg VUE_APP_BASE_API_ENDPOINT="${{ env.VUE_APP_BASE_API_ENDPOINT }}" \
+            --build-arg VUE_APP_DOMAIN="${{ env.VUE_APP_DOMAIN }}" \
+            --build-arg VUE_APP_BASE_IMAGE_URL="${{ env.VUE_APP_BASE_IMAGE_URL }}" \
+            --build-arg VUE_APP_ASSETS="${{ env.VUE_APP_ASSETS }}" \
+            --build-arg VUE_APP_RECAPCHA_KEY="${{ env.VUE_APP_RECAPCHA_KEY }}" \
+            --build-arg VUE_APP_DOC_API_URL="${{ env.VUE_APP_DOC_API_URL }}" \
+            --build-arg VUE_APP_POLICY_URL="${{ env.VUE_APP_POLICY_URL }}" \
+            --build-arg VUE_APP_BUCKET_LABELS="${{ env.VUE_APP_BUCKET_LABELS }}" \
+            --build-arg VUE_APP_CRISP_WEBSITE_ID="${{ env.VUE_APP_CRISP_WEBSITE_ID }}" \
+            --build-arg VUE_APP_SUPERSET_DASHBOARD="${{ env.VUE_APP_SUPERSET_DASHBOARD }}" \
+            -t "$IMAGE_TAG" \
+            -t crm_wealify/crm-wealify:dev-latest \
+            -f deploy/Dockerfile .
 
-      - name: 📦 Install deps
-        run: npm ci
+             # 3. Export biến để docker-compose.onprem.yml nhận diện
+            export IMAGE_NAME="$IMAGE_TAG"
 
-      - name: 🏗 Build Nuxt
-        env:
-          NODE_OPTIONS: --max_old_space_size=4096
-        run: |
-          npm run build
-          echo "✅ Build completed"
-          ls -la .output/
+             # 4. Deploy với Docker Stack
+          # Biến IMAGE_NAME sẽ được truyền vào file compose
+          docker stack deploy -c docker-compose.onprem.yml crm_wealify --with-registry-auth
 
-      - name: 📂 Upload .output to server
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.DO_HOST }}
-          username: ${{ secrets.DO_USER }}
-          password: ${{ secrets.DO_PASSWORD }}
-          source: ".output/"
-          target: "/var/www/crm-web"
-          overwrite: true
-          rm: true
+          # 5. Dọn dẹp (Optional: xóa các image cũ hơn 24h để tránh đầy ổ cứng)
+          docker image prune -f
+          docker builder prune -f
 
-      - name: 🚀 Restart app via SSH
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.DO_HOST }}
-          username: ${{ secrets.DO_USER }}
-          password: ${{ secrets.DO_PASSWORD }}
-          script: |
-            echo "==> [crm-web] $(date) restart with new build"
-            bash /var/www/deploy/crm-web/deploy.sh
+          # 6. Force update
+          docker service update --force crm_wealify_crm-wealify
